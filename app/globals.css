@@ -1,13 +1,5 @@
 @import "tailwindcss";
 
-.glow-button {
-  box-shadow: 0 0 15px rgba(59, 130, 246, 0.3);
-}
-
-.glow-button:hover {
-  box-shadow: 0 0 25px rgba(59, 130, 246, 0.4);
-}
-
 .glow-card {
   box-shadow: 0 4px 24px rgba(17, 24, 39, 0.1);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);

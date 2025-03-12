@@ -41,36 +41,36 @@ export default function ThirdPage() {
 
         <div className="w-full md:w-1/2 px-8 mt-12 md:mt-0">
           <div className="bg-[#12102D] rounded-xl p-6 shadow-xl relative">
-            <div className="justify-between bg-[#19173A] p-5 rounded-lg">
+            <div className="bg-[#19173A] p-5 rounded-lg relative">
               <h3 className="text-gray-300 text-lg">Total Leads</h3>
               <div className="text-white text-3xl font-bold mt-2">5,689</div>
               <p className="text-green-400 text-sm mt-3">✅ 100% Open Rates</p>
 
               <div className="absolute right-5 top-5">
-                <div className="relative w-16 h-16">
-                  <svg className="w-full h-full transform -rotate-90">
+                <div className="relative w-28 h-28">
+                  <svg className="w-full h-full transform -rotate-90" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="40" fill="none" stroke="#2D2B42" strokeWidth="8" />
                     <circle
-                      cx="50%"
-                      cy="50%"
-                      r="30"
+                      cx="50"
+                      cy="50"
+                      r="40"
                       fill="none"
-                      stroke="#2D2B42"
-                      strokeWidth="6"
-                    />
-                    <circle
-                      cx="50%"
-                      cy="50%"
-                      r="30"
-                      fill="none"
-                      stroke="#4ADE80"
-                      strokeWidth="6"
-                      strokeDasharray="188.495"
-                      strokeDashoffset={188.495 * 0.3}
+                      stroke="url(#progressGradient)"
+                      strokeWidth="8"
+                      strokeDasharray="251.2"
+                      strokeDashoffset="75.36"
                       strokeLinecap="round"
                     />
+                    <defs>
+                      <linearGradient id="progressGradient" x1="0" y1="1" x2="1" y2="0">
+                        <stop offset="10%" stopColor="#00FFFF" />  
+                        <stop offset="25%" stopColor="#00FFFF" />  
+                        <stop offset="100%" stopColor="#00FFFF" />  
+                      </linearGradient>
+                    </defs>
                   </svg>
-                  <div className="absolute inset-0 flex items-center justify-center text-white text-sm font-bold">
-                    70%
+                  <div className="absolute inset-0 flex items-center justify-center text-white text-lg font-bold">
+                    70%<br/> valid
                   </div>
                 </div>
               </div>
@@ -102,40 +102,6 @@ export default function ThirdPage() {
                 </div>
                 <span className="text-red-400">❌ Invalid</span>
                 <span className="text-gray-400">Not Deliverable</span>
-              </div>
-
-              <div className="flex space-x-1.5">
-                <img
-                  src="https://randomuser.me/api/portraits/women/79.jpg"
-                  alt="User"
-                  className="w-8 h-8 rounded-full border-2 border-white"
-                  loading="lazy"
-                />
-                <img
-                  src="https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg"
-                  alt="User"
-                  className="w-8 h-8 rounded-full border-2 border-white"
-                  loading="lazy"
-                />
-                <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=a72ca28288878f8404a795f39642a46f"
-                  alt="User"
-                  className="w-8 h-8 rounded-full border-2 border-white"
-                  loading="lazy"
-                />
-                <img
-                  src="https://randomuser.me/api/portraits/men/86.jpg"
-                  alt="User"
-                  className="w-8 h-8 rounded-full border-2 border-white"
-                  loading="lazy"
-                />
-                <img
-                  src="https://images.unsplash.com/photo-1510227272981-87123e259b17?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=3759e09a5b9fbe53088b23c615b6312e"
-                  alt="User"
-                  className="w-8 h-8 rounded-full border-2 border-white"
-                  loading="lazy"
-                />
-          
               </div>
             </div>
           </div>
