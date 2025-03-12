@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+.glow-button {
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.3);
+}
+
+.glow-button:hover {
+  box-shadow: 0 0 25px rgba(59, 130, 246, 0.4);
+}
+
+.glow-card {
+  box-shadow: 0 4px 24px rgba(17, 24, 39, 0.1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glow-card:hover {
+  box-shadow: 0 8px 32px rgba(59, 130, 246, 0.15);
+  transform: translateY(-2px);
+}
+
+.glow-button {
+  box-shadow: 0 4px 24px rgba(59, 130, 246, 0.3);
+  transition: all 0.3s ease;
+}
+
+.glow-button:hover {
+  box-shadow: 0 8px 32px rgba(59, 130, 246, 0.4);
+  transform: translateY(-1px);
+}
+
+.faq-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.faq-card:hover {
+  transform: translateY(-2px);
+}
+
+a {
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #ffffff;
+}
