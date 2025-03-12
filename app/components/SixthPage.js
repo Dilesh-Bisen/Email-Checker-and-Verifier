@@ -6,7 +6,7 @@ export default function VerifierUsers() {
     return (
         <div className="w-full max-w-screen-xl px-6 py-20 bg-[#1A0B2E] text-white flex flex-col items-center">
 
-            <h1 className="text-4xl font-bold mb-12 text-center">Who is using Verifier?</h1>
+            <h1 className="text-4xl font-bold mb-20 text-center">Who is using Verifier?</h1>
 
 
             <div className="grid grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-4xl">
