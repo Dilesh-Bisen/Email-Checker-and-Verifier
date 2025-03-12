@@ -49,28 +49,53 @@ export default function ThirdPage() {
               <div className="absolute right-5 top-5">
                 <div className="relative w-28 h-28">
                   <svg className="w-full h-full transform -rotate-90" viewBox="0 0 100 100">
-                    <circle cx="50" cy="50" r="40" fill="none" stroke="#2D2B42" strokeWidth="8" />
+
                     <circle
                       cx="50"
                       cy="50"
                       r="40"
                       fill="none"
-                      stroke="url(#progressGradient)"
+                      stroke="#2D2B42"
                       strokeWidth="8"
-                      strokeDasharray="251.2"
-                      strokeDashoffset="75.36"
+                    />
+
+                    <circle
+                      cx="50"
+                      cy="50"
+                      r="40"
+                      fill="none"
+                      stroke="#4ADE80"
+                      strokeWidth="8"
+                      strokeDasharray="150.72 100.48"
                       strokeLinecap="round"
                     />
-                    <defs>
-                      <linearGradient id="progressGradient" x1="0" y1="1" x2="1" y2="0">
-                        <stop offset="10%" stopColor="#00FFFF" />  
-                        <stop offset="25%" stopColor="#00FFFF" />  
-                        <stop offset="100%" stopColor="#00FFFF" />  
-                      </linearGradient>
-                    </defs>
+
+                    <circle
+                      cx="50"
+                      cy="50"
+                      r="40"
+                      fill="none"
+                      stroke="#FFA500"
+                      strokeWidth="8"
+                      strokeDasharray="37.68 213.52"
+                      strokeDashoffset="-150.72"
+                      strokeLinecap="round"
+                    />
+
+                    <circle
+                      cx="50"
+                      cy="50"
+                      r="40"
+                      fill="none"
+                      stroke="#FF3D00"
+                      strokeWidth="8"
+                      strokeDasharray="37.68 213.52"
+                      strokeDashoffset="-188.4"
+                      strokeLinecap="round"
+                    />
                   </svg>
                   <div className="absolute inset-0 flex items-center justify-center text-white text-lg font-bold">
-                    70%<br/> valid
+                    70%<br /> valid
                   </div>
                 </div>
               </div>
