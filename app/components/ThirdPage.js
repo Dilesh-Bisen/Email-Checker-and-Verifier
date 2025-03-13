@@ -128,6 +128,40 @@ export default function ThirdPage() {
                 <span className="text-red-400">❌ Invalid</span>
                 <span className="text-gray-400">Not Deliverable</span>
               </div>
+
+              <div className="flex space-x-1.5">
+                <img
+                  src="https://randomuser.me/api/portraits/women/79.jpg"
+                  alt="User"
+                  className="w-8 h-8 rounded-full border-2 border-white"
+                  loading="lazy"
+                />
+                <img
+                  src="https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg"
+                  alt="User"
+                  className="w-8 h-8 rounded-full border-2 border-white"
+                  loading="lazy"
+                />
+                <img
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=a72ca28288878f8404a795f39642a46f"
+                  alt="User"
+                  className="w-8 h-8 rounded-full border-2 border-white"
+                  loading="lazy"
+                />
+                <img
+                  src="https://randomuser.me/api/portraits/men/86.jpg"
+                  alt="User"
+                  className="w-8 h-8 rounded-full border-2 border-white"
+                  loading="lazy"
+                />
+                <img
+                  src="https://images.unsplash.com/photo-1510227272981-87123e259b17?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=3759e09a5b9fbe53088b23c615b6312e"
+                  alt="User"
+                  className="w-8 h-8 rounded-full border-2 border-white"
+                  loading="lazy"
+                />
+
+              </div>
             </div>
           </div>
         </div>
